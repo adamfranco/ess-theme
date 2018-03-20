@@ -1,0 +1,119 @@
+.more-link {
+  text-align: center;
+  padding: 10px;
+}
+
+body.html {
+  background-image: url("http://www.epicskillswap.org/wp-content/uploads/2013/04/ESS-jars.jpg");
+}
+body#tinymce {
+  background-image: none;
+}
+
+#page-wrapper {
+  margin: 40px 65px;
+}
+
+#header {
+  background-color: #00681a;
+  background-image: -moz-linear-gradient(center top , #009000 0%, #00681a 100%);
+  background-image: -webkit-linear-gradient(top , #009000 0%, #00681a 100%);
+  background-image: linear-gradient(center top , #009000 0%, #00681a 100%);
+}
+
+#name-and-slogan {
+  padding-top: 45px;
+}
+
+#content h2.pane-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#secondary-menu {
+  width: 100%;
+  margin-top: 6px;
+}
+#secondary-menu h2 {
+  display: none;
+}
+
+#secondary-menu-links {
+  float: none;
+}
+#secondary-menu-links li {
+  float: right;
+}
+#secondary-menu-links li.first {
+  float: left;
+}
+
+/* Action buttons */
+a.action-button {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-right: 10px;
+  color: #000;
+  background-color: #ddd;
+  border: 1px solid #777;
+  border-radius: 7px;
+  text-decoration: none;
+  min-width: 7em;
+  text-align: center;
+}
+a.action-button .description {
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+/* Ratings */
+.workshop-interest-vote a, .workshop-interest-vote span {
+  display: inline-block;
+  padding: 4px;
+  margin-right: 10px;
+  color: #000;
+  background-color: #ddd;
+  border: 1px solid #777;
+  border-radius: 7px;
+  text-decoration: none;
+  width: 7em;
+  text-align: center;
+}
+
+.workshop-interest-vote a.disabled, .workshop-interest-vote span {
+  color: #999;
+  border-color: #999;
+}
+
+.workshop-interest-vote a.user-vote {
+  font-weight: bold;
+  border: 3px solid;
+  background-color: #bbb;
+  padding: 2px;
+/*   margin-right: 4px 4px; */
+}
+
+.workshop-interest-vote a.value-2.user-vote {
+  background-color: #9F9;
+  border-color: #164916;
+  color: #164916;
+}
+.workshop-interest-vote a.value-1.user-vote {
+  background-color: #FFFF99;
+  border-color: #550;
+  color: #550;
+}
+.workshop-interest-vote a.value-0.user-vote {
+  background-color: #F99;
+  border-color: #491616;
+  color: #491616;
+}
+
+/* Feed links */
+#block-menu-menu-subscriptions ul.menu a {
+  background-image: url('http://www.adamfranco.com/wp-content/themes/fallseason-10/images/feed.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 36px !important;
+}
